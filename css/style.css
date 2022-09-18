@@ -1,0 +1,247 @@
+body {
+    background-image: url("../image/fon.png");
+    background-repeat: repeat;
+
+}
+
+header{
+    position: relative;
+}
+
+/*Шапка сайта*/
+/*Блок контейнера логотипа*/
+.container_logo{
+    background-image: url("../image/header&footer.png");
+    border-radius: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    width: 15%;
+    height: 60px;
+    float: left;
+    background-repeat: repeat;
+}
+.container_logo a{
+    background-image: url("../image/logo.png");
+    background-size:contain;
+    background-position: center;
+    height: 60px;
+    width: 100%;
+    display: block;
+    background-repeat: no-repeat;
+
+}
+
+/*Блок меню*/
+.container_menu {
+    background-image: url("../image/header&footer.png");
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    height: 60px;
+    width: 70%;
+    padding-right: 5px;
+
+}
+
+/*Блок кнопок меню*/
+ul.navigation {
+    list-style-type: none; /*Убрать маркеры со списка.*/
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center; /*Центрирование по вертикали */
+
+}
+
+/*Кнопки меню*/
+ul.navigation li {
+    background-color: rgb(225, 225, 222);
+    border-radius: 8px;
+    border: 2px solid rgb(0, 0, 0);
+    height: 25px;
+    width: 16%;
+    font-size: 15px;
+    margin-left: 5px;
+    padding: 0;
+
+
+}
+
+/*Ссылка в  кнопках меню*/
+ul.navigation a {
+    text-decoration: none; /*Убрать подчеркивание в ссылках*/
+    color: black;
+    box-sizing: border-box;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    display: block;
+    /*display: flex;*/
+    /*justify-content: center; !*Центрирование по горизонтали*!*/
+    /*align-items: center; !*Центрирование по вертикали *!*/
+
+
+}
+
+/*Блок авторизации*/
+.container_authorization {
+    background-image: url("../image/header&footer.png");
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    box-sizing: border-box;
+    float: right;
+    text-align: center;
+    padding: 15px 0;
+    height: 155px;
+    width: 15%;
+    position: absolute;
+    right: 0;
+
+}
+
+/*Кнопки авторизации*/
+button{
+    background-color: rgb(225, 225, 222);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    margin-bottom: 5px;
+    width: 80%;
+    height: 25px;
+    font-size: 15px;
+    cursor: pointer;
+
+
+
+}
+input[name="login"], input[name="password"]{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    margin-bottom: 5px;
+    width: 80%;
+    height: 15px;
+    font-size: 15px;
+    padding: 5px 5px;
+
+}
+input[value="Отправить"]{
+    background-color: rgb(225, 225, 222);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    width: 80%;
+    height: 25px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    /*padding: 5px 5px;*/
+    cursor: pointer;
+
+
+}
+
+/*Поведение кнопок главного меню при наведении курсора*/
+ul.navigation li:hover {
+    background-color: rgb(251, 253, 253);
+    font-size: 17px;
+
+}
+
+/*Поведение кнопок авторизации при наведении курсора*/
+
+input[value="Отправить"]:hover, input:hover, button:hover{
+    background-color: rgb(251, 253, 253);
+    font-size: 17px;
+
+}
+
+input:focus {
+    background-color: #ffffcc;
+}
+
+.sidebar_left{
+    width: 15%;
+    float: left;
+}
+.sidebar_right{
+    width: 15%;
+    float: right;
+
+}
+article{
+    width: 70%;
+    float: left;
+
+}
+/*Основной контейнер*/
+.main_container {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    min-height: 540px;
+}
+
+/*Левый контейнер Верхний*/
+.left_container_up {
+    background-image: url("../image/header&footer.png");
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    min-height: 340px;
+
+}
+
+/*Левый контейнер нижний*/
+
+.left_container_down {
+    background-image: url("../image/header&footer.png");
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    min-height: 200px;
+}
+
+/*Правый блок Нижний*/
+.right_container_down {
+    background-image: url("../image/header&footer.png");
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    min-height: 200px;
+}
+
+/*Правый блок верхний*/
+.right_container_up {
+    background-image: url("../image/header&footer.png");
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    min-height: 245px;
+    margin-top: 71pt;
+}
+
+/*Футер*/
+.footer {
+    background-image: url("../image/header&footer.png");
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    min-height: 130px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    height:0;
+}

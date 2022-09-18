@@ -1,0 +1,319 @@
+/************************
+*************************
+*******header************
+*************************
+************************/
+
+.navbar {
+    min-height: 87px;
+}
+
+.container {
+    padding: 0 20px 0 20px;
+}
+
+.navbar-nav a {
+    font-size: 16px;
+    color: #868b94;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+header img[alt="logo"] {
+    margin-left: 20px;
+}
+
+header a.how-it-works {
+    margin-right: 33px;
+}
+
+header a.about-us {
+    margin-right: 69px;
+}
+
+header a.contact-us {
+    margin-right: 45px;
+}
+
+
+/************************
+*************************
+*******header************
+*************************
+************************/
+
+
+/************************
+*************************
+*******header img********
+*************************
+************************/
+
+.back-img {
+    background-image: url("../img/bacground.webp");
+    background-repeat: repeat-x;
+    height: 842px;
+    position: relative;
+}
+
+.back-img img[alt="iphone"] {
+    left: 11.3%;
+    bottom: 0;
+    position: absolute;
+    max-width: 539px;
+    height: auto;
+}
+
+.back-img img[alt="tuchka1"] {
+    position: absolute;
+    top: 147px;
+    /*left: 323px;*/
+    max-height: 28px;
+    max-width: 49px;
+
+}
+
+.back-img img[alt="tuchka2"] {
+    position: absolute;
+    top: 736px;
+    /*left: 355px;*/
+    max-height: 18px;
+    max-width: 32px;
+}
+
+.back-img img[alt="tuchka3"] {
+    position: absolute;
+    bottom: 13.1%;
+    right: 30.5%;
+    opacity: .5;
+    max-height: 32px;
+    max-width: 56px;
+
+}
+
+.back-img img[alt="tuchka4"] {
+    position: absolute;
+    top: 27.2%;
+    left: 51.8%;
+    max-height: 21px;
+    max-width: 38px;
+
+
+}
+
+.track_your_next_fuel_shops {
+    font-size: 52px;
+    font-family: "Ubuntu";
+    color: rgb(247, 246, 242);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.385;
+    text-align: left;
+    width: 482px;
+    height: 110px;
+
+}
+
+
+.monitor_and_Alert_on_all_petrol_bunks_near_to_you_ {
+    font-size: 24px;
+    font-family: "Ubuntu";
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-style: italic;
+    text-align: left;
+    width: 497px;
+    height: 25px;
+    margin-top: 42px;
+
+
+}
+
+.signup_for___free {
+    font-size: 16px;
+    font-family: "Ubuntu";
+    color: rgb(247, 247, 247);
+    text-align: left;
+    font-weight: bold;
+    margin-top: 73px;
+    margin-bottom: 39px;
+
+}
+
+.rounded_Rectangle_6 {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgb(255, 206, 84);
+    width: 57px;
+    height: 27px;
+    text-align: center;
+
+}
+
+input[type="email"]::placeholder {
+    font-size: 18px;
+    font-family: "Ubuntu";
+    font-weight: lighter;
+    color: rgba(45, 57, 76, 0.31);
+    line-height: 7.389;
+    text-align: left;
+    opacity: 0.85;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+    font-size: 18px;
+    font-family: "Ubuntu";
+    font-weight: lighter;
+    color: rgba(45, 57, 76, 0.31);
+    line-height: 7.389;
+    text-align: left;
+    opacity: 0.85;
+}
+
+input[type="email"]::-moz-placeholder {
+    font-size: 18px;
+    font-family: "Ubuntu";
+    font-weight: lighter;
+    color: rgba(45, 57, 76, 0.31);
+    line-height: 7.389;
+    text-align: left;
+    opacity: 0.85;
+
+}
+
+input[type="email"]:-moz-placeholder {
+    font-size: 18px;
+    font-family: "Ubuntu";
+    font-weight: lighter;
+    color: rgba(45, 57, 76, 0.31);
+    line-height: 7.389;
+    text-align: left;
+    opacity: 0.85;
+
+}
+
+input[type="email"]:-ms-input-placeholder {
+    font-size: 18px;
+    font-family: "Ubuntu";
+    font-weight: lighter;
+    color: rgba(45, 57, 76, 0.31);
+    line-height: 7.389;
+    text-align: left;
+    opacity: 0.85;
+
+}
+
+input[type="email"] {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 427px;
+    height: 58px;
+}
+
+
+button[type="submit"] {
+    font-size: 18px;
+    font-family: "Ubuntu";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(119, 195, 68);
+    border: 0 solid;
+    width: 113px;
+    height: 54px;
+}
+
+.btn[type="submit"]:hover {
+    background-color: #fff;
+    color: rgb(255, 255, 255);
+}
+
+.block-1 {
+    position: absolute;
+    right: 29.1%;
+    top: 26.1%;
+    width: 300px;
+}
+
+form {
+    display: flex;
+}
+
+
+/*.btn:first-child:hover, :not(.btn-check)+.btn:hover {*/
+/*    color: var(--bs-btn-hover-color);*/
+/*    background-color: var(--bs-btn-hover-bg);*/
+/*    border-color: var(--bs-btn-hover-border-color);*/
+/*}*/
+/************************
+*************************
+*******header img********
+*************************
+************************/
+
+/************************
+*************************
+*****Section. labels*****
+*************************
+************************/
+
+
+.labels {
+    min-height: 158px;
+    background-color: blue;
+rgb(248, 248, 248)
+}
+
+p.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 158px;
+    margin-left: 5.9%;
+    margin-right: 4%;
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+
+.main-content h1 {
+    font-size: 40px;
+    font-family: "Ubuntu";
+    color: rgba(45, 57, 76, 0.851);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5.7% 0 0 0;
+
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.text img{
+}
+.text h3 {
+    width: 90%;
+    margin-bottom: 0;
+
+}
+
+.text p {
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(148, 153, 162);
+
+
+}
+
+
+/************************
+*************************
+*****Section. labels*****
+*************************
+************************/
