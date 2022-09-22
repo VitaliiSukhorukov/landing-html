@@ -6,13 +6,12 @@
     <title>Bootstrap demo</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/landing.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">header .navbar
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@300;400;500;700&display=swap"
           rel="stylesheet">
     <script src="https://kit.fontawesome.com/01c7b852e3.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="body">
 <header>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
@@ -25,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link how-it-works active pe-0" aria-current="page" href="#">How it works</a>
+                        <a class="nav-link how-it-works pe-0" aria-current="page" href="#">How it works</a>
                     </li>
                     <li class="nav-item ps-0 pe-0">
                         <a class="nav-link about-us ps-0 pe-0" href="#">About Us</a>
@@ -44,10 +43,10 @@
 
     <div class="container-fluid g-0">
         <div class="row g-0">
-            <div class="col-lg-6 col-sm-12">
+            <div class="col-xl-6">
                 <section class="back-img">
-                    <div><img src="img/tuchka.webp" alt="tuchka1"></div>
-                    <div><img src="img/tuchka.webp" alt="tuchka2"></div>
+                    <img src="img/tuchka.webp" alt="tuchka1">
+                    <img src="img/tuchka.webp" alt="tuchka2">
                     <div class="block-1"><h1 class="track_your_next_fuel_shops">Track your next fuel shops</h1>
                         <p class="monitor_and_Alert_on_all_petrol_bunks_near_to_you_">Monitor and Alert on all petrol
                             bunks
@@ -56,16 +55,17 @@
                         <p class="signup_for___free">Signup For &ensp;<span class="rounded_Rectangle_6">FREE</span>
                         </p>
                         <form>
-                            <div class="mb-3">
-                                <input type="email" class="form-control" id="exampleInputEmail1"
+                            <div class="mb-3 form">
+                                <input type="email" class="form-control" id="exampleInputEmail"
                                        aria-describedby="emailHelp" placeholder="Your E-mail Adress">
+                                <button type="submit" class="btn btn-success">SIGNUP</button>
                             </div>
-                            <button type="submit" class="btn btn-success">SIGNUP</button>
+
                         </form>
                     </div>
                 </section>
             </div>
-            <div class="col-lg-6 col-sm-12">
+            <div class="d-none d-xl-block d-xxl-block col-xl-6">
                 <section class="back-img">
                     <div><img src="img/iphone.webp" alt="iphone"></div>
                     <div><img src="img/tuchka.webp" alt="tuchka3"></div>
@@ -79,7 +79,7 @@
     <section class="labels">
         <div class="container g-0">
             <div class="row g-0">
-                <div class="col-lg-12 col-sm-12">
+                <div class="col-sm-12 d-none d-lg-block">
                     <p class="icons">
                         <img src="img/icon-1.webp">
                         <img src="img/icon-2.webp">
@@ -94,10 +94,10 @@
 
     <section class="main-content">
         <h1>WHY Tank App ?</h1>
-        <div class="container-fluid g-0">
+        <div class="container-fluid g-0 main-container">
             <div class="row g-0">
-                <div class="col-lg-6 col-sm-12">
-                    <div class="text">
+                <div class=" col-sm-12 col-lg-7 col-xl-6">
+                    <div class="text" style="margin-top: 12.6%">
                         <img src="img/icon-6.webp" alt="icon-6">
                         <h3>Reliable and Secure Platform</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
@@ -126,10 +126,180 @@
                             laboris nisi ut aliquip ex ea com</p>
                     </div>
                 </div>
+                <div class="col-sm-12 d-none d-lg-block  col-lg-5 col-xl-6 note-book">
+                    <img src="img/note-book.webp" alt="note-book">
+                </div>
             </div>
         </div>
     </section>
+
+    <div class="container-fluid g-0 carousel-back">
+        <h4>WHY TANK APP DIFFRENT ?</h4>
+        <div class="row g-0">
+            <div class="col-lg-7 col-sm-12">
+                <section class="my-carousel">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1">1
+                            </button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                    aria-label="Slide 2">2
+                            </button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                    aria-label="Slide 3">3
+                            </button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                                    aria-label="Slide 4">4
+                            </button>
+
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="text-on-carousel">
+                                    <img src="img/icon-10.webp" alt="">
+                                    <h5>Works on any device anyware</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com Neque
+                                        porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                        adipisci velit, sed quia non numquam eius modi tempora incidunt ut</p>
+                                </div>
+                                <div class="carousel-caption d-none d-md-block">
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-on-carousel">
+                                    <img src="img/icon-10.webp" alt="">
+                                    <h5>Works on any device anyware</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com Neque
+                                        porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                        adipisci velit, sed quia non numquam eius modi tempora incidunt ut</p>
+                                </div>
+                                <div class="carousel-caption d-none d-md-block">
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-on-carousel">
+                                    <img src="img/icon-10.webp" alt="">
+                                    <h5>Works on any device anyware</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com Neque
+                                        porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                        adipisci velit, sed quia non numquam eius modi tempora incidunt ut</p>
+                                </div>
+                                <div class="carousel-caption d-none d-md-block">
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-on-carousel">
+                                    <img src="img/icon-10.webp" alt="">
+                                    <h5>Works on any device anyware</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com Neque
+                                        porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                        adipisci velit, sed quia non numquam eius modi tempora incidunt ut</p>
+                                </div>
+                                <div class="carousel-caption d-none d-md-block">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-lg-5 col-sm-12 lodka">
+                <section class="right-block-image">
+                    <img src="img/lodka.webp" alt="lodka">
+                </section>
+            </div>
+        </div>
+    </div>
 </article>
+<footer>
+    <section class="e-mail-adress">
+        <div class="container-fluid g-0">
+            <div class="row g-0">
+                <div class="col-lg-12 col-sm-12">
+                    <h4>SAVE TIME & GAIN AGILITY</h4>
+                    <h6>Using our cloud Monitoring Services So you can Focous on Runing Yours Better </h6>
+                    <form>
+                        <div>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                   aria-describedby="emailHelp" placeholder="Enter Your E-mail Adress">
+                        </div>
+                        <button type="submit" class="btn btn-success">SIGNUP</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="line"></div>
+    <section class="footer">
+        <nav>
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3 col-sm-12 col-logo">
+                        <div class="footer-logo">
+                            <a class="navbar-brand" href="#"><img src="img/icon-footer.webp" alt="icon-footer"></a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-9 col-sm-12">
+                        <div class="footer-menu">
+                            <ul>
+                                <li class="font">
+                                    <a href="#">HOME</a>
+                                </li>
+                                <li>
+                                    <a href="#">ABOUT US</a>
+                                </li>
+                                <li>
+                                    <a href="#">HOW IT WORKS</a>
+                                </li>
+                                <li>
+                                    <a href="#">CONTACT</a>
+                                </li>
+                                <li>
+                                    <a href="#">BLOG</a>
+                                </li>
+                                <span class="line-right"></span>
+                            </ul>
+
+                            <div class="fonts">
+                                <ul>
+                                    <li class="font">
+                                        <a href="#" class="awesome"><i
+                                                class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li class="font">
+                                        <a href="#" class="awesome"><i
+                                                class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li class="font">
+                                        <a href="#" class="awesome"><i
+                                                class="fa-brands fa-google-plus-g"></i></a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </section>
+</footer>
 
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>

@@ -60,7 +60,6 @@ h4 {
 
 .top-menu li a:hover::after {
     transform: scale(1);
-
 }
 
 .modal-body img {
